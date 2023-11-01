@@ -26,7 +26,6 @@ body::after {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(0,0,0,0.8);
 }
 
 section {
@@ -37,7 +36,7 @@ section {
 }
 
 .container {
-  max-width: 1080px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding-left: 20px;
@@ -107,7 +106,7 @@ section {
 .contact-form {
   background-color: #fff;
   padding: 40px;
-  width: 45%;
+  width: 60%;
   padding-bottom: 20px;
   padding-top: 20px;
 }
