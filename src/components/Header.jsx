@@ -65,8 +65,10 @@ const Header = () => {
             exit={{opacity: 0, x:200}}
             className='flex items-center gap-8'>
                 <li className='text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer'>Home</li>
-                <li className='text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer'>Order</li>
-                
+                <Link to={'/orderPage'}>
+                <li className='text-base text-textColor hover:text-headingColor 
+                duration-100 transition-all ease-in-out cursor-pointer'>Order</li>
+                </Link>
 
                 <Link to={'/aboutUs'}>
                 <li className='text-base text-textColor hover:text-headingColor 
@@ -166,7 +168,11 @@ const Header = () => {
                      <ul 
                 className='flex flex-col'>
                 <li className='text-base hover:bg-slate-100 text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer p-4 py-2' onClick = {() => setIsMenu(false)}>Home</li>
-                <li className='text-base hover:bg-slate-100 text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer p-4 py-2' onClick = {() => setIsMenu(false)}>Menu</li>
+                <Link to={'/orderPage'}>
+                <li className='text-base hover:bg-slate-100 text-textColor 
+                hover:text-headingColor duration-100 
+                transition-all ease-in-out cursor-pointer p-4 py-2' onClick = {() => setIsMenu(false)}>Order</li>
+                </Link>
                 
                 <Link to={'/aboutUs'}>
                 <li className='text-base hover:bg-slate-100 text-textColor hover:text-headingColor 

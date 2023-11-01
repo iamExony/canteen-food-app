@@ -20,7 +20,7 @@ const MainContainer = () => {
     <div className="w-screen h-auto flex flex-col items-start justify-center">
       <HomeContainer />
 
-       {/* <section className="w-full my-6">
+        <section className="w-full my-6">
         <div className="w-full flex items-center justify-between">
           <p className="text-2xl font-semibold capitalize text-headingColor relative before:absolute before:rounded-lg 
           before:content before:w-32 before:h-1 
@@ -54,7 +54,7 @@ const MainContainer = () => {
         <CartContainer />
       )}
       
-      </section>  */}
+      </section>  
     </div>
   );
 };
