@@ -4,6 +4,7 @@ import "./about.css";
 const AboutSection = () => {
   return (
     <>
+    
        <div class="wrapper mt-24">
         {/*<div class="background-container">
           <div class="bg-1"></div>
@@ -67,7 +68,7 @@ const AboutSection = () => {
             </div>
             <div class="box">
               <div class="top-bar"></div>
-              <div class="nav">
+              <div class="navigation">
                 <i class="verify fas fa-check-circle"></i>
                 <input type="checkbox" class="heart-btn" id="heart-btn" />
                 <label class="heart"></label>
@@ -93,7 +94,7 @@ const AboutSection = () => {
             </div>
             <div class="box">
               <div class="top-bar"></div>
-              <div class="nav">
+              <div class="navigation">
                 <i class="verify fas fa-check-circle"></i>
                 <input type="checkbox" class="heart-btn" id="heart-btn" />
                 <label class="heart"></label>
@@ -119,7 +120,7 @@ const AboutSection = () => {
             </div>
             <div class="box">
               <div class="top-bar"></div>
-              <div class="nav">
+              <div class="navigation">
                 <i class="verify fas fa-check-circle"></i>
                 <input type="checkbox" class="heart-btn" id="heart-btn" />
                 <label class="heart"></label>
@@ -145,7 +146,7 @@ const AboutSection = () => {
             </div>
             <div class="box">
               <div class="top-bar"></div>
-              <div class="nav">
+              <div class="navigation">
                 <i class="verify fas fa-check-circle"></i>
                 <input type="checkbox" class="heart-btn" id="heart-btn" />
                 <label class="heart"></label>
@@ -171,7 +172,7 @@ const AboutSection = () => {
             </div>
             <div class="box">
               <div class="top-bar"></div>
-              <div class="nav">
+              <div class="navigation">
                 <i class="verify fas fa-check-circle"></i>
                 <input type="checkbox" class="heart-btn" id="heart-btn" />
                 <label class="heart"></label>
@@ -197,7 +198,7 @@ const AboutSection = () => {
             </div>
             <div class="box">
               <div class="top-bar"></div>
-              <div class="nav">
+              <div class="navigation">
                 <i class="verify fas fa-check-circle"></i>
                 <input type="checkbox" class="heart-btn" id="heart-btn" />
                 <label class="heart"></label>
@@ -223,7 +224,7 @@ const AboutSection = () => {
             </div>{" "}
             <div class="box">
               <div class="top-bar"></div>
-              <div class="nav">
+              <div class="navigation">
                 <i class="verify fas fa-check-circle"></i>
                 <input type="checkbox" class="heart-btn" id="heart-btn" />
                 <label class="heart"></label>
@@ -249,7 +250,7 @@ const AboutSection = () => {
             </div>
             <div class="box">
               <div class="top-bar"></div>
-              <div class="nav">
+              <div class="navigation">
                 <i class="verify fas fa-check-circle"></i>
                 <input type="checkbox" class="heart-btn" id="heart-btn" />
                 <label class="heart"></label>
@@ -275,7 +276,7 @@ const AboutSection = () => {
             </div>
             <div class="box">
               <div class="top-bar"></div>
-              <div class="nav">
+              <div class="navigation">
                 <i class="verify fas fa-check-circle"></i>
                 <input type="checkbox" class="heart-btn" id="heart-btn" />
                 <label class="heart"></label>
@@ -301,7 +302,7 @@ const AboutSection = () => {
             </div>
             <div class="box">
               <div class="top-bar"></div>
-              <div class="nav">
+              <div class="navigation">
                 <i class="verify fas fa-check-circle"></i>
                 <input type="checkbox" class="heart-btn" id="heart-btn" />
                 <label class="heart"></label>
@@ -330,7 +331,7 @@ const AboutSection = () => {
             </div>
             <div class="box">
               <div class="top-bar"></div>
-              <div class="navigation">
+              <div class="navigationigation">
                 <i class="verify fas fa-check-circle"></i>
                 <input type="checkbox" class="heart-btn" id="heart-btn" />
                 <label class="heart"></label>
