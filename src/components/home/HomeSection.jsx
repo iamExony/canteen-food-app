@@ -246,12 +246,13 @@ const HomeSection = () => {
       {/* <!-- 1st section left side --> */}
       <div class="stay-connected">
         <h3 class="stay-connected-heading">Stay Connected</h3>
-        <p class="footer-text">Sign up for all of the latest news, promotions, new products & more</p>
+        <p className="footer-text w-4/5">Sign up for all of the latest news, promotions, new products & more</p>
 
-        <form class="box">
-          <input class="box-input" type="search" placeholder="Email Address" />
+        
+          <div className="flex flex-col">
+          <input class="box-input h-4 my-4 p-6 outline-none" type="search" placeholder="Email Address" />
           <a className="box-search" type="submit" href="#">sign me up!</a> 
-        </form>
+          </div>
        </div>
       </footer>
 
