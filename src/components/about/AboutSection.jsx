@@ -4,7 +4,7 @@ import "./about.css";
 const AboutSection = () => {
   return (
     <>
-       <div class="wrapper">
+       <div class="wrapper mt-24">
         {/*<div class="background-container">
           <div class="bg-1"></div>
           <div class="bg-2"></div>
