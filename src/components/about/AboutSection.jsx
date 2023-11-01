@@ -15,7 +15,7 @@ const AboutSection = () => {
           </div>
 
           <div class="text-container">
-            <h1>About us</h1>
+            <h1 className="text-black font-extrabold">About us</h1>
             <p>
               Welcome to "Unique Taste", where culinary adventures are
               boundless, and your taste buds become globetrotters! At
@@ -41,7 +41,7 @@ const AboutSection = () => {
           <div class="container">
             <div class="box">
               <div class="top-bar"></div>
-              <div class="nav">
+              <div class="navigation">
                 <i class="verify fas fa-check-circle"></i>
                 <input type="checkbox" class="heart-btn" id="heart-btn" />
                 <label class="heart"></label>
@@ -330,7 +330,7 @@ const AboutSection = () => {
             </div>
             <div class="box">
               <div class="top-bar"></div>
-              <div class="nav">
+              <div class="navigation">
                 <i class="verify fas fa-check-circle"></i>
                 <input type="checkbox" class="heart-btn" id="heart-btn" />
                 <label class="heart"></label>

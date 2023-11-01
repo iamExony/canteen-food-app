@@ -56,6 +56,7 @@
     align-items: flex-start;
     flex-direction: column;
     font-size: 22px;
+
 }
 .text-container h1{
     font-size: 70px;
@@ -137,14 +138,14 @@ a{
 }
 
 .box{
-    width: 266px;
+    width: 400px;
     height: 340px;
     background-color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 50px;
     border-radius: 10px;
     margin: 20px;
     /* position: relative; */
@@ -155,7 +156,7 @@ a{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-}
+} 
 
 .top-bar{
     width: 50%;
@@ -172,14 +173,14 @@ a{
      color: #333;
 }
 
-.nav{
+.navigation{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
 }
 
-.nav .heart{
+.navigation .heart{
    color: rgba(155,155,155);
 }
 
