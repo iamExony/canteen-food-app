@@ -6,8 +6,9 @@
     font-family: 'Roboto', sans-serif;
 }
 .wrapper{
-    position: relative;
+  /*   position: relative; */
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -27,7 +28,7 @@
 .about-container{
     width: 85%;
     min-height: 80vh;
-    position: absolute;
+  /*   position: absolute; */
     background-color: white;
     box-shadow: 24px 24px 30px #6d8dad;
     display: flex;
@@ -112,10 +113,6 @@ a{
     align-items: center;
     flex-direction: column;
     background-color: #02010a;
-    padding-top: 40px;
-    padding-bottom: 60px;
-    padding-left: 40px;
-    padding-right: 40px;
 }
 
 .heading {
@@ -150,7 +147,7 @@ a{
     padding: 20px;
     border-radius: 10px;
     margin: 20px;
-    position: relative;
+    /* position: relative; */
 }
 
 .container {
