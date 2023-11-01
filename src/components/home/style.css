@@ -6,7 +6,7 @@
 /* MEDIA QUERIES */
 @media screen and (min-width: 480px) {
   @font-face {
-    font-family: "Inter-ExtraBold";
+    font-family: "Inter";
   }
 
   @font-face {
@@ -967,7 +967,7 @@
 /* MEDIA QUERIES */
 @media screen and (max-width: 480px) {
   @font-face {
-    font-family: "Inter-ExtraBold";
+    font-family: "Inter";
   }
 
   @font-face {
