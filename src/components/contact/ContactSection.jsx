@@ -1,17 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=">
-  <title>Contact Us</title>
-  <script src="https://kit.fontawesome.com/c32adfdcda.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="./css/contact.css">
-</head>
-<body>
-  
-  <section>
+import React from 'react'
+import './contact.css'
+
+const ContactSection = () => {
+  return (
+    <>
+    <section>
     
-    <div class="section-header">
+    <div class="section-header my-16">
       <div class="container">
         <h2>Contact Us</h2>
         <p>At UniqueTaste, we believe in the power of communication. Your feedback, inquiries, and suggestions are valuable to us, as they help us improve and tailor our services to your preferences. </p>
@@ -29,7 +24,7 @@
             
             <div class="contact-info-content">
               <h4>Address</h4>
-              <p>Uniport Choba, Opposite Frist Bank, <br> Rivers State, Nigeria</p>
+              <p>Uniport Choba, Opposite Frist Bank, <br/> Rivers State, Nigeria</p>
             </div>
           </div>
           
@@ -60,12 +55,12 @@
           <form action="" id="contact-form">
             <h2>Send Message</h2>
             <div class="input-box">
-              <input type="text" required="true" name="">
+              <input type="text" required="true" name=""/>
               <span>Full Name</span>
             </div>
             
             <div class="input-box">
-              <input type="email" required="true" name="">
+              <input type="email" required="true" name=""/>
               <span>Email</span>
             </div>
             
@@ -75,7 +70,7 @@
             </div>
             
             <div class="input-box">
-              <input type="submit" value="Send" name="">
+              <input type="submit" value="Send" name=""/>
             </div>
           </form>
         </div>
@@ -83,6 +78,8 @@
       </div>
     </div>
   </section>
-  
-</body>
-</html>
+    </>
+  )
+}
+
+export default ContactSection
