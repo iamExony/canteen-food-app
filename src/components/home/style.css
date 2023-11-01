@@ -1,43 +1,40 @@
+@import url(https://fonts.googleapis.com/css?family=Fraunces:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Outfit:100,200,300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+
 /* MEDIA QUERIES */
 @media screen and (min-width: 480px) {
   @font-face {
     font-family: "Inter-ExtraBold";
-    src: url("fonts\\Inter-ExtraBold.ttf");
   }
 
   @font-face {
     font-family: "Inter-Bold";
-    src: url("fonts\\Inter-Bold.ttf");
   }
 
   @font-face {
-    font-family: "Inter-Regular";
-    src: url("fonts\\Inter-Regular.ttf");
+    font-family: "Inter";
   }
 
   @font-face {
-    font-family: "Outfit-Bold";
-    src: url("fonts\\Outfit-Bold.ttf");
+    font-family: "Outfit";
   }
 
   @font-face {
-    font-family: "Outfit-Regular";
-    src: url("fonts\\Outfit-Regular.ttf");
+    font-family: "Outfit";
   }
 
   @font-face {
-    font-family: "Outfit-Medium";
-    src: url("fonts\\Outfit-Medium.ttf");
+    font-family: "Outfit";
   }
 
   @font-face {
-    font-family: "Montserrat-Regular";
-    src: url("fonts\\Montserrat-Regular.ttf");
+    font-family: "Montserrat";
   }
 
   @font-face {
-    font-family: "Fraunces_9pt-Bold";
-    src: url("fonts\\Fraunces_9pt-Bold.ttf");
+    font-family: "Fraunces";
   }
 
   * {
@@ -104,7 +101,7 @@
   }
 
   .item-1 {
-    font-family: Fraunces_9pt-Bold;
+    font-family: Fraunces;
     font-size: 56px;
     color: #56494c;
     margin-left: 9%;
@@ -113,7 +110,7 @@
   }
 
   .button-1 {
-    font-family: "Outfit-Regular";
+    font-family: "Outfit";
     font-size: 17px;
     color: #634832;
     display: flex;
@@ -148,7 +145,7 @@
   }
 
   #start-new-order {
-    font-family: "Outfit-Bold";
+    font-family: "Outfit";
     font-size: 16px;
     display: flex;
     align-items: center;
@@ -168,7 +165,7 @@
     line-height: 40px;
     letter-spacing: 2px;
     padding: 0 8px;
-    font-family: "Outfit-Bold";
+    font-family: "Outfit";
     display: flex;
     align-items: center;
     color: #3f2305;
@@ -202,7 +199,7 @@
   }
 
   .button-2 {
-    font-family: Inter-Regular;
+    font-family: Inter;
     width: 160px;
     height: 49px;
     display: flex;
@@ -220,7 +217,7 @@
   }
 
   a.button-2:hover {
-    font-family: Inter-Regular;
+    font-family: Inter;
     font-weight: bold;
     text-decoration: none;
     background-color: #f75c03;
@@ -236,7 +233,8 @@
     padding-left: 8%;
     margin-bottom: 10px;
     margin-top: 50px;
-    font-family: Fraunces_9pt-Bold;
+    font-family: Fraunces;
+    font-weight: bolder;
     font-size: 40px;
   }
 
@@ -281,7 +279,8 @@
   }
 
   .item-2 {
-    font-family: "Outfit-Bold";
+    font-family: "Outfit";
+    font-weight: bold;
     font-size: 20px;
     display: flex;
     flex-direction: column;
@@ -298,7 +297,7 @@
   }
 
   .back1 {
-    font-family: "Outfit-Regular";
+    font-family: "Outfit";
     display: flex;
     justify-content: center;
     align-items: center;
@@ -313,7 +312,7 @@
   }
 
   .back2 {
-    font-family: "Outfit-Regular";
+    font-family: "Outfit";
     display: flex;
     justify-content: center;
     align-items: center;
@@ -328,7 +327,7 @@
   }
 
   .back3 {
-    font-family: "Outfit-Regular";
+    font-family: "Outfit";
     display: flex;
     justify-content: center;
     align-items: center;
@@ -342,7 +341,7 @@
   }
 
   .back4 {
-    font-family: "Outfit-Regular";
+    font-family: "Outfit";
     display: flex;
     justify-content: center;
     align-items: center;
@@ -622,14 +621,14 @@
   }
 
   .gallery-img {
-    font-family: Fraunces_9pt-Bold;
+    font-family: Fraunces;
     font-size: 26px;
     color: #56494c;
     margin-top: 20px;
   }
 
   a.gallery-img:link {
-    font-family: Fraunces_9pt-Bold;
+    font-family: Fraunces;
     font-size: 26px;
     color: #56494c;
     margin-top: 20px;
@@ -641,7 +640,7 @@
   }
 
   /* a.button-2:visted {
-    font-family: Fraunces_9pt-Bold;
+    font-family: Fraunces;
     font-size: 26px;
     color: #56494c;
     margin-top: 20px;
@@ -649,7 +648,7 @@
   }
 
   a.button-2:active {
-    font-family: Fraunces_9pt-Bold;
+    font-family: Fraunces;
     font-size: 26px;
     color: #56494c;
     margin-top: 20px;
@@ -657,7 +656,7 @@
   }
 
   a.button-2:hover {
-    font-family: Fraunces_9pt-Bold;
+    font-family: Fraunces;
     font-size: 26px;
     color: #56494c;
     margin-top: 20px;
@@ -665,7 +664,7 @@
   } */
 
   /* a.button-2:hover {
-  font-family: Inter-Regular;
+  font-family: Inter;
   font-weight: bold;
   text-decoration: none;
   background-color: #f75c03;
@@ -673,7 +672,7 @@
 } */
 
   .gallery-small-text {
-    font-family: "Inter-Regular";
+    font-family: "Inter";
     font-size: 14px;
     margin-top: 9px;
   }
@@ -699,22 +698,22 @@
     justify-content: flex-start;
     align-items: center;
     margin-top: 50px;
-    font-family: Fraunces_9pt-Bold;
+    font-family: Fraunces;
     font-size: 40px;
     color: #fff;
   }
 
   .item-4 {
-    /* font-family: Outfit-Regular; */
+    /* font-family: Outfit; */
     width: 300px;
-    font-family: Inter-Regular;
+    font-family: Inter;
     font-size: 13px;
     color: #fff;
     text-align: center;
   }
 
   .button-3 {
-    font-family: Outfit-Regular;
+    font-family: Outfit;
     width: 200px;
     height: 49px;
     display: flex;
@@ -777,8 +776,8 @@
   }
 
   .stay-connected-heading {
-    /* font-family: "Montserrat-Regular"; */
-    font-family: "Outfit-Medium";
+    /* font-family: "Montserrat"; */
+    font-family: "Outfit";
     color: #f5f7f8;
     font-size: 35px;
   }
@@ -793,7 +792,7 @@
   }
 
   .footer-anchor {
-    font-family: "Montserrat-Regular";
+    font-family: "Montserrat";
     color: #f5f7f8;
     display: flex;
     flex-direction: column;
@@ -804,13 +803,13 @@
   }
 
   .footer-text {
-    /* font-family: "Outfit-Regular"; */
-    font-family: "Montserrat-Regular";
+    /* font-family: "Outfit"; */
+    font-family: "Montserrat";
     color: #f5f7f8;
   }
 
   .footer-text-1 {
-    font-family: "Montserrat-Regular";
+    font-family: "Montserrat";
     color: #f5f7f8;
     display: flex;
     flex-direction: column;
@@ -828,7 +827,7 @@
     padding-left: 8%;
     margin-bottom: 10px;
     margin-top: 150px;
-    font-family: Fraunces_9pt-Bold;
+    font-family: Fraunces;
     font-size: 40px;
   }
 
@@ -856,7 +855,7 @@
   }
 
   .review-heading {
-    font-family: Fraunces_9pt-Bold;
+    font-family: Fraunces;
     font-size: 22px;
     margin-bottom: 22px;
     color: #f5f7f8;
@@ -864,7 +863,7 @@
   }
 
   .review-name {
-    font-family: Outfit-Regular;
+    font-family: Outfit;
     font-size: 14px;
     margin-bottom: 5px;
     color: #f5f7f8;
@@ -872,8 +871,8 @@
   }
 
   .review-status {
-    font-family: "Inter-Regular";
-    font-family: "Montserrat-Regular";
+    font-family: "Inter";
+    font-family: "Montserrat";
     font-size: 11px;
     margin-bottom: 20px;
     color: #f5f7f8;
@@ -881,7 +880,7 @@
   }
 
   .review-message {
-    font-family: "Montserrat-Regular";
+    font-family: "Montserrat";
     /* font-size: 14px; */
     font-size: 14px;
     color: #f5f7f8;
@@ -899,7 +898,7 @@
   }
 
   .box-input {
-    font-family: "Montserrat-Regular";
+    font-family: "Montserrat";
     font-size: 16px;
     width: 330px;
     border-radius: 4px;
@@ -909,7 +908,7 @@
   }
 
   .box-search {
-    font-family: "Montserrat-Regular";
+    font-family: "Montserrat";
     background: #d0eeec;
     color: #567189;
     font-size: 16px;
@@ -957,7 +956,7 @@
     color: #f5f7f8;
     background-color: #419197;
     letter-spacing: 3px;
-    font-family: "Inter-Regular";
+    font-family: "Inter";
     font-size: 7px;
     display: flex;
     align-items: center;
@@ -969,42 +968,34 @@
 @media screen and (max-width: 480px) {
   @font-face {
     font-family: "Inter-ExtraBold";
-    src: url("fonts\\Inter-ExtraBold.ttf");
   }
 
   @font-face {
     font-family: "Inter-Bold";
-    src: url("fonts\\Inter-Bold.ttf");
   }
 
   @font-face {
-    font-family: "Inter-Regular";
-    src: url("fonts\\Inter-Regular.ttf");
+    font-family: "Inter";
   }
 
   @font-face {
-    font-family: "Outfit-Bold";
-    src: url("fonts\\Outfit-Bold.ttf");
+    font-family: "Outfit";
   }
 
   @font-face {
-    font-family: "Outfit-Regular";
-    src: url("fonts\\Outfit-Regular.ttf");
+    font-family: "Outfit";
   }
 
   @font-face {
-    font-family: "Outfit-Medium";
-    src: url("fonts\\Outfit-Medium.ttf");
+    font-family: "Outfit";
   }
 
   @font-face {
-    font-family: "Montserrat-Regular";
-    src: url("fonts\\Montserrat-Regular.ttf");
+    font-family: "Montserrat";
   }
 
   @font-face {
-    font-family: "Fraunces_9pt-Bold";
-    src: url("fonts\\Fraunces_9pt-Bold.ttf");
+    font-family: "Fraunces";
   }
 
   * {
@@ -1051,7 +1042,7 @@
     line-height: 40px;
     letter-spacing: 1px;
     padding: 0 8px;
-    font-family: "Outfit-Bold";
+    font-family: "Outfit";
     display: flex;
     align-items: center;
     color: #3f2305;
@@ -1067,7 +1058,7 @@
   }
 
   #start-new-order {
-    font-family: "Outfit-Bold";
+    font-family: "Outfit";
     font-size: 16px;
     display: flex;
     align-items: center;
@@ -1119,7 +1110,7 @@
   }
 
   .item-1 {
-    font-family: Fraunces_9pt-Bold;
+    font-family: Fraunces;
     font-size: 38px;
     color: #56494c;
     margin-left: 9%;
@@ -1128,7 +1119,7 @@
   }
 
   /* .item-1a {
-  font-family: Montserrat-Regular;
+  font-family: Montserrat;
   font-size: 25px;
   color: #213555;
   margin-left: 9%;
@@ -1136,7 +1127,7 @@
 } */
 
   .button-1 {
-    font-family: Inter-Regular;
+    font-family: Inter;
     font-size: 16px;
     /* color: #634832; */
     color: #50b8e7;
@@ -1174,7 +1165,7 @@
   }
 
   .button-2 {
-    font-family: Inter-Regular;
+    font-family: Inter;
     width: 160px;
     height: 46px;
     display: flex;
@@ -1191,7 +1182,7 @@
   }
 
   a.button-2:hover {
-    font-family: Inter-Regular;
+    font-family: Inter;
     font-weight: bold;
     text-decoration: none;
     background-color: #f75c03;
@@ -1206,7 +1197,7 @@
     align-items: center;
     padding-bottom: 55px;
     padding-top: 50px;
-    font-family: Fraunces_9pt-Bold;
+    font-family: Fraunces;
     font-size: 20px;
     background-color: #f5f7f8;
     font-size: 1.5em;
@@ -1257,7 +1248,7 @@
   }
 
   .back1 {
-    font-family: "Outfit-Regular";
+    font-family: "Outfit";
     font-size: 8px;
     display: flex;
     justify-content: center;
@@ -1273,7 +1264,7 @@
   }
 
   .back2 {
-    font-family: "Outfit-Regular";
+    font-family: "Outfit";
     font-size: 8px;
     display: flex;
     justify-content: center;
@@ -1289,7 +1280,7 @@
   }
 
   .back3 {
-    font-family: "Outfit-Regular";
+    font-family: "Outfit";
     font-size: 8px;
     display: flex;
     justify-content: center;
@@ -1304,7 +1295,7 @@
   }
 
   .back4 {
-    font-family: "Outfit-Regular";
+    font-family: "Outfit";
     font-size: 8px;
     display: flex;
     justify-content: center;
@@ -1325,7 +1316,7 @@
   }
 
   .item-2 {
-    font-family: "Outfit-Regular";
+    font-family: "Outfit";
     font-size: 12px;
     text-align: center;
     flex-basis: 250px;
@@ -1604,14 +1595,14 @@
   }
 
   .gallery-img {
-    font-family: Fraunces_9pt-Bold;
+    font-family: Fraunces;
     font-size: 20px;
     color: #56494c;
     margin-top: 20px;
   }
 
   a.gallery-img:link {
-    font-family: Fraunces_9pt-Bold;
+    font-family: Fraunces;
     font-size: 20px;
     color: #56494c;
     margin-top: 10px;
@@ -1619,7 +1610,7 @@
   }
 
   a.gallery-img:visited {
-    font-family: Fraunces_9pt-Bold;
+    font-family: Fraunces;
     font-size: 20px;
     color: #56494c;
     margin-top: 10px;
@@ -1627,7 +1618,7 @@
   }
 
   a.gallery-img:active {
-    font-family: Fraunces_9pt-Bold;
+    font-family: Fraunces;
     font-size: 20px;
     color: #56494c;
     margin-top: 10px;
@@ -1635,7 +1626,7 @@
   }
 
   a.gallery-img:hover {
-    font-family: Fraunces_9pt-Bold;
+    font-family: Fraunces;
     font-size: 20px;
     color: #56494c;
     margin-top: 10px;
@@ -1643,7 +1634,7 @@
   }
 
   .gallery-small-text {
-    font-family: "Inter-Regular";
+    font-family: "Inter";
     font-size: 10px;
     margin-top: 6px;
   }
@@ -1667,7 +1658,7 @@
   .item-3 {
     height: 100px;
     margin-top: 50px;
-    font-family: Fraunces_9pt-Bold;
+    font-family: Fraunces;
     font-size: 2.5em;
     color: #f5f7f8;
     width: 250px;
@@ -1676,10 +1667,10 @@
   }
 
   .item-4 {
-    /* font-family: Outfit-Regular; */
+    /* font-family: Outfit; */
     width: 250px;
     margin-top: 30px;
-    font-family: Inter-Regular;
+    font-family: Inter;
     font-size: 0.8em;
     color: #f5f7f8;
     text-align: left;
@@ -1687,8 +1678,8 @@
   }
 
   .button-3 {
-    /* font-family: Inter-Regular; */
-    font-family: Outfit-Regular;
+    /* font-family: Inter; */
+    font-family: Outfit;
     width: 250px;
     height: 49px;
     display: flex;
@@ -1756,8 +1747,8 @@
 
   .stay-connected-heading {
     width: 100%;
-    /* font-family: "Montserrat-Regular"; */
-    font-family: "Outfit-Medium";
+    /* font-family: "Montserrat"; */
+    font-family: "Outfit";
     color: #f5f7f8;
     font-size: 20px;
   }
@@ -1773,14 +1764,14 @@
   }
 
   .footer-text {
-    /* font-family: "Outfit-Regular"; */
-    font-family: "Montserrat-Regular";
+    /* font-family: "Outfit"; */
+    font-family: "Montserrat";
     color: #f5f7f8;
     font-size: 13px;
   }
 
   .footer-anchor {
-    font-family: "Montserrat-Regular";
+    font-family: "Montserrat";
     color: #f5f7f8;
     display: flex;
     flex-direction: column;
@@ -1791,7 +1782,7 @@
   }
 
   .footer-text-1 {
-    font-family: "Montserrat-Regular";
+    font-family: "Montserrat";
     color: #f5f7f8;
     display: flex;
     flex-direction: column;
@@ -1806,7 +1797,7 @@
     padding-top: 70px;
     padding-left: 15%;
     padding-right: 15%;
-    font-family: Fraunces_9pt-Bold;
+    font-family: Fraunces;
     font-size: 2.5em;
     line-height: 150%;
     background-color: #f5f7f8;
@@ -1837,29 +1828,29 @@
   }
 
   .review-heading {
-    font-family: Fraunces_9pt-Bold;
+    font-family: Fraunces;
     font-size: 1.5em;
     margin-bottom: 22px;
     color: #f5f7f8;
   }
 
   .review-name {
-    font-family: Outfit-Regular;
+    font-family: Outfit;
     font-size: 1em;
     margin-bottom: 3px;
     color: #f5f7f8;
   }
 
   .review-status {
-    font-family: "Inter-Regular";
-    font-family: Outfit-Regular;
+    font-family: "Inter";
+    font-family: Outfit;
     font-size: 0.7em;
     margin-bottom: 20px;
     color: #f5f7f8;
   }
 
   .review-message {
-    font-family: "Montserrat-Regular";
+    font-family: "Montserrat";
     font-size: 0.8em;
     color: #f5f7f8;
     /* letter-spacing: 0.5px; */
@@ -1878,7 +1869,7 @@
   }
 
   .box-input {
-    font-family: "Montserrat-Regular";
+    font-family: "Montserrat";
     font-size: 13px;
     width: 330px;
     height: 51px;
@@ -1889,7 +1880,7 @@
   }
 
   .box-search {
-    font-family: "Montserrat-Regular";
+    font-family: "Montserrat";
     background-color: #d0eeec;
     color: #567189;
     font-size: 13px;
@@ -1933,7 +1924,7 @@
     color: #f5f7f8;
     background-color: #419197;
     letter-spacing: 3px;
-    font-family: "Inter-Regular";
+    font-family: "Inter";
     font-size: 7px;
     display: flex;
     align-items: center;

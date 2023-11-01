@@ -34,8 +34,8 @@ const HomeSection = () => {
 
         <div>
           <div className="item-1 text-[2rem] lg:text-[4.5rem] lg:mt-16 flex items-start flex-col font-bold tracking-wide drop-shadow">
-            <span className="block">Delicious. {""}</span>
-            <span className="block">Nutritious.</span>
+            <span className="block">Delicious {""}</span>
+            <span className="block">Nutritious</span>
             <span className="block">Affordable</span>
           </div>
 
