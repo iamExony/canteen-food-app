@@ -64,15 +64,9 @@ const Header = () => {
             animate={{opacity: 1, x:0}}
             exit={{opacity: 0, x:200}}
             className='flex items-center gap-8'>
-                <Link to={'/'}>
                 <li className='text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer'>Home</li>
-                </Link>
-                <Link to={'/orderItem'}>
-                <li className='text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer'>Order</li>
-                </Link>
-                <Link to={'/aboutUs'}>
+                <li className='text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer'>Menu</li>
                 <li className='text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer'>About Us</li>
-                </Link>
                 <li className='text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer'>Service</li>
             </motion.ul>
 
@@ -136,7 +130,7 @@ const Header = () => {
 
         <Link to={'/'} className= 'flex items-center gap-2'>
                 <img src={Logo} className='w-10 object-cover' alt="logo" />
-                <p className="text-headingColor text-xl font-bold">Unique Taste</p>
+                <p className="text-headingColor text-xl font-bold capitalize">Unique Taste</p>
             </Link>
 
         <div className='relative'>
@@ -165,8 +159,17 @@ const Header = () => {
                      <ul 
                 className='flex flex-col'>
                 <li className='text-base hover:bg-slate-100 text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer p-4 py-2' onClick = {() => setIsMenu(false)}>Home</li>
-                <li className='text-base hover:bg-slate-100 text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer p-4 py-2' onClick = {() => setIsMenu(false)}>Menu</li>
-                <li className='text-base hover:bg-slate-100 text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer p-4 py-2' onClick = {() => setIsMenu(false)}>About Us</li>
+                <Link to={'/orderPage'}>
+                <li className='text-base hover:bg-slate-100 text-textColor 
+                hover:text-headingColor duration-100 
+                transition-all ease-in-out cursor-pointer p-4 py-2' onClick = {() => setIsMenu(false)}>Order</li>
+                </Link>
+                
+                <Link to={'/aboutUs'}>
+                <li className='text-base hover:bg-slate-100 text-textColor hover:text-headingColor 
+                duration-100 transition-all ease-in-out 
+                cursor-pointer p-4 py-2' onClick = {() => setIsMenu(false)}>About Us</li>
+                </Link>
                 <li className='text-base hover:bg-slate-100 text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer p-4 py-2' onClick = {() => setIsMenu(false)}>Service</li>
             </ul>
                {/*  <p>{user.displayName.slice(0, 5)}</p> */}

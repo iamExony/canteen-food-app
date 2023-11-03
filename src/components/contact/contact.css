@@ -36,7 +36,11 @@ section {
 }
 
 .container {
+<<<<<<< HEAD
   max-width: 1080px;
+=======
+  width: 100%;
+>>>>>>> 799b5d6905ab33774d53335d7646dfc4b57eb411
   margin-left: auto;
   margin-right: auto;
   padding-left: 20px;
@@ -106,7 +110,11 @@ section {
 .contact-form {
   background-color: #fff;
   padding: 40px;
+<<<<<<< HEAD
   width: 45%;
+=======
+  width: 60%;
+>>>>>>> 799b5d6905ab33774d53335d7646dfc4b57eb411
   padding-bottom: 20px;
   padding-top: 20px;
 }

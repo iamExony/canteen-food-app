@@ -4,9 +4,15 @@ import './contact.css'
 const ContactSection = () => {
   return (
     <>
+<<<<<<< HEAD
     <section className='bg-[rgba(0,0,0,0.8)] mt-16'>
     
     <div class="section-header">
+=======
+    <section>
+    
+    <div class="section-header my-16">
+>>>>>>> 799b5d6905ab33774d53335d7646dfc4b57eb411
       <div class="container">
         <h2>Contact Us</h2>
         <p>At UniqueTaste, we believe in the power of communication. Your feedback, inquiries, and suggestions are valuable to us, as they help us improve and tailor our services to your preferences. </p>
@@ -78,7 +84,10 @@ const ContactSection = () => {
       </div>
     </div>
   </section>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 799b5d6905ab33774d53335d7646dfc4b57eb411
     </>
   )
 }

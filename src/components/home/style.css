@@ -14,6 +14,10 @@
 
    body {
     font-family: Arial, Helvetica, sans-serif;
+<<<<<<< HEAD
+=======
+    min-height: 100vh;
+>>>>>>> 799b5d6905ab33774d53335d7646dfc4b57eb411
     width: 100vw;
   } 
 
@@ -1152,7 +1156,11 @@
     /* gap: 109px; */
     height: 330px;
     padding-bottom: 60px;
+<<<<<<< HEAD
    /*  overflow: hidden; */
+=======
+    overflow: hidden;
+>>>>>>> 799b5d6905ab33774d53335d7646dfc4b57eb411
     background-color: #f5f7f8;
     margin-bottom: 20px;
   }

@@ -17,10 +17,10 @@ const MainContainer = () => {
 
 
   return (
-    <div className="w-full h-auto flex flex-col items-center justify-center">
+    <div className="w-screen h-auto flex flex-col items-start justify-center">
       <HomeContainer />
 
-      <section className="w-full my-6">
+        <section className="w-full my-6">
         <div className="w-full flex items-center justify-between">
           <p className="text-2xl font-semibold capitalize text-headingColor relative before:absolute before:rounded-lg 
           before:content before:w-32 before:h-1 
@@ -46,7 +46,7 @@ const MainContainer = () => {
       <RowContainer 
       scrollValue = {scrollValue} 
       flag={true} 
-      data={foodItems?.filter((n) => n.category === 'fruits')}/> 
+      data={foodItems?.filter((n) => n.category)}/> 
 
       <MenuContainer />
 
@@ -54,7 +54,7 @@ const MainContainer = () => {
         <CartContainer />
       )}
       
-      </section>
+      </section>  
     </div>
   );
 };
