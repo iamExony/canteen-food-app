@@ -14,7 +14,7 @@ html, body{
 }
 @media only screen and (max-width: 600px) {
     body {
-      overflow-y: hidden;
+      /* overflow-y: hidden; */
     }
   }
 @tailwind base;

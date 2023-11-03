@@ -64,9 +64,15 @@ const Header = () => {
             animate={{opacity: 1, x:0}}
             exit={{opacity: 0, x:200}}
             className='flex items-center gap-8'>
+                <Link to={'/'}>
                 <li className='text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer'>Home</li>
-                <li className='text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer'>Menu</li>
+                </Link>
+                <Link to={'/orderItem'}>
+                <li className='text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer'>Order</li>
+                </Link>
+                <Link to={'/aboutUs'}>
                 <li className='text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer'>About Us</li>
+                </Link>
                 <li className='text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer'>Service</li>
             </motion.ul>
 
